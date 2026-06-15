@@ -46,6 +46,8 @@ In the GitHub repository settings:
 2. Set **Source** to **GitHub Actions**.
 3. Push to `main` or run the workflow manually.
 
+If the workflow fails with `Get Pages site failed` or `Not Found`, GitHub Pages has not been enabled for the repository yet. The workflow asks `actions/configure-pages` to enable Pages automatically, but GitHub may still require an administrator to do the one-time **Settings > Pages > Source = GitHub Actions** setup in the repository UI.
+
 ## Browser App Features
 
 - Paste text directly into the page.
